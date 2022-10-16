@@ -1,10 +1,11 @@
 #include <iostream>
-#include "Cpu.h"
+#include "Blah.h"
+#include "zlib.h"
 
 int main (int argc, char *argv[])
 {
   std::cout << "Hello world\n";
-  Cpu().boo();
+  Blah().boo();
   return 0;
 }
 
